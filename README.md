@@ -44,6 +44,6 @@ To start the application, follow these steps:
     npm run dev
     ```
 
-3. Open your browser and navigate to `http://localhost:5173`.
+3. Open your browser and navigate to `http://localhost:3001`.
 
 
