@@ -3,6 +3,10 @@
 ## Project Description
 Text Summarizer is a web application that allows users to input text and get a summarized version of it. Users can specify a persona and a word limit for the summary.
 
+
+<img width="972" alt="Screenshot 2025-02-26 at 10 41 43 PM" src="https://github.com/user-attachments/assets/2241da16-30f3-43f7-aff9-b5ceed05dc77" />
+
+
 ## Installation
 To run this project locally, follow these steps:
 
