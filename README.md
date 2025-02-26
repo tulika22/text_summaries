@@ -1,34 +1,45 @@
-# text-summarizer
+# Text Summarizer
 
-This template should help get you started developing with Vue 3 in Vite.
+## Project Description
+Text Summarizer is a web application that allows users to input text and get a summarized version of it. Users can specify a persona and a word limit for the summary.
 
-## Recommended IDE Setup
+## Installation
+To run this project locally, follow these steps:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/tulika22/text_summaries.git
+    cd text-summarizer
+    ```
 
-## Type Support for `.vue` Imports in TS
+2. Install the dependencies for the frontend:
+    ```sh
+    npm install
+    ```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+3. Install the dependencies for the backend:
+    ```sh
+    pip install <requirements>
+    ```
 
-## Customize configuration
+4. Create a `.env` file in the server directory and add your OpenAI API key:
+    ```env
+    OPENAI_API_KEY=your_openai_api_key
+    ```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Usage
+To start the application, follow these steps:
 
-## Project Setup
+1. Run the backend server:
+    ```sh
+    python server.py
+    ```
 
-```sh
-npm install
-```
+2. Run the frontend application:
+    ```sh
+    npm run dev
+    ```
 
-### Compile and Hot-Reload for Development
+3. Open your browser and navigate to `http://localhost:5173`.
 
-```sh
-npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-# text_summaries
